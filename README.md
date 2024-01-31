@@ -43,10 +43,11 @@ CyberEcho is a real-time chat application that bridges terminal-based and web-ba
 2. **Access the Web Interface**
    ```bash
    Open http://localhost:3000 in your browser.
-  
 
 
-### User Guide
-- The C server manages chat connections and messaging.
-- Terminal clients provide direct chat interfaces.
-- The web application offers a graphical UI for chatting.
+### Troubleshooting
+**Process Management**
+   ```bash
+   ps aux | grep 'server.js'
+
+
