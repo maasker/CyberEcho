@@ -10,6 +10,17 @@ CyberEcho is a real-time chat application that bridges terminal-based and web-ba
 - Node.js and npm
 - Terminal and Web Browser
 
+### Node.js Installation
+1. **Download Node.js**: Visit [Node.js Official Website](https://nodejs.org/) and download the installer for your OS.
+
+2. **Install Node.js**: Run the downloaded installer and follow the instructions to install Node.js and npm.
+
+3. **Verify Installation**: Open a terminal and execute:
+   ```bash
+   node -v
+   npm -v
+
+
 ### Server Installation
 1. **Compile the C Server**
    ```bash
@@ -36,11 +47,16 @@ CyberEcho is a real-time chat application that bridges terminal-based and web-ba
 
 
 ### Web Interface Setup
-1. **Start the Node.js Server**
+1. **Initialize Node.js Project**:
+   Navigate to the project directory where `server.js` is located and run:
+   ```bash
+   npm init
+   
+2. **Start the Node.js Server**
    ```bash
    node server.js
 
-2. **Access the Web Interface**
+3. **Access the Web Interface**
    ```bash
    Open http://localhost:3000 in your browser.
 
