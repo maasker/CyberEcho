@@ -51,6 +51,7 @@ CyberEcho is a real-time chat application that bridges terminal-based and web-ba
    Navigate to the project directory where `server.js` is located and run:
    ```bash
    npm init
+   npm install express socket.io net
    
 2. **Start the Node.js Server**
    ```bash
