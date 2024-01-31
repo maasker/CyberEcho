@@ -32,7 +32,7 @@ CyberEcho is a real-time chat application that bridges terminal-based and web-ba
    
 - In case of port conflicts:
    ```bash
-   sudo lsof -i :9000
+   sudo lsof -i :8989
    sudo kill -9 [PID]
 
 
